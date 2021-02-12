@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NOMMEZ VOTRE SITE -->
+    <title>NOM VOULU</title>
+    <!-- TJRS LIER LE CSS -->
+    <link rel="stylesheet" href="./public/css/app.css">
+
+</head>
+
+<!-- src/scss/modules/_body.scss -->
+<body>
+
+<!-- src/scss/modules/_section.scss -->
+<section>
+    <div class="container-lg card h-50 w-50  m-0 p-0">
+        <div class="card-body  m-0 p-0">
+            <div><p class="resultat"></p></div>
+                <div class="bouton-calculette row m-0 p-0">
+                    <!-- Chiffre -->
+                    <div class="chiffre-calculatrice col-lg-9 m-0 p-0">
+                        <button type="button" class="neuf col-3 m-0 p-0 btn" value="9">9</button>
+                        <button type="button" class="huit col-3 m-0 p-0 btn" value="8">8</button>
+                        <button type="button" class="sept col-3 m-0 p-0 btn" value="7">7</button>
+                        <button type="button" class="six col-3 m-0 p-0 btn" value="6">6</button>
+                        <button type="button" class="cinq col-3 m-0 p-0 btn" value="5">5</button>
+                        <button type="button" class="quatre col-3 m-0 p-0 btn" value="4">4</button>
+                        <button type="button" class="trois col-3 m-0 p-0 btn" value="3">3</button>
+                        <button type="button" class="deux col-3 m-0 p-0 btn" value="2">2</button>
+                        <button type="button" class="un col-3 m-0 p-0 btn" value="1">1</button>
+                        <button type="button" class="tout-supprimer col-3 m-0 p-0 btn" value="clear">Clear</button>
+                        <button type="button" class="zero col-3 m-0 p-0 btn" value="0">0</button>
+                        <button type="button" class="point col-3 m-0 p-0 btn" value=".">.</button>
+                    </div>
+                    <!-- systeme de calcule -->
+                    <div class="systeme-calcule col-lg-3 m-0 p-0">
+                        <button type="button" class="plus col-12 m-0 p-0 btn" value="+">+</button>
+                        <button type="button" class="moins col-12 m-0 p-0 btn" value="-">-</button>
+                        <button type="button" class="fois col-12 m-0 p-0 btn" value="x">x</button>
+                        <button type="button" class="diviser col-12 m-0 p-0 btn" value="/">/</button>
+                    </div>
+                </div>
+            <button class="egal w-100 m-0 p-0 btn" value="=">=</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- Votre JS ; JQuery et bootstrap , tjrs à la toute fin du body -->
+
+<script src="./public/js/app.js"></script>
+
+                    <!-- JQuery -->
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+    
+                    <!-- bootstrap -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+
+</html> 
